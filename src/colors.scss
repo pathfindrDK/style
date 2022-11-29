@@ -1,0 +1,15 @@
+:root {
+    --PF-color-green: #{$pf-green};
+    --PF-color-green-light: #{$pf-green-light};
+    --PF-color-red: #{$pf-red};
+    --PF-color-red-light: #{$pf-red-light};
+    --PF-color-dark: #{$pf-dark};
+    --PF-color-light: #{$pf-light};
+    --PF-color-lightest: #{$pf-lightest};
+
+    --PF-light-color: #{$pf-light};
+    --PF-dark-color: #{$pf-dark};
+    
+    --PF-primary-color: #{$pf-green};
+    --PF-secondary-color: #{$pf-dark};
+}

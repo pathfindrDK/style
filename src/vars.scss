@@ -1,0 +1,37 @@
+$ns: 'PF';
+
+$font-family: 'Mulish', sans-serif;
+
+$icons: (
+    "file": "../assets/file.svg",
+    "close": "../assets/close.svg",
+    "welcome": "../assets/welcome.svg",
+    "permission": "../assets/permission.svg",
+    "loader": "../assets/loader.svg",
+    "success": "../assets/success.svg",
+    "success_large": "../assets/success_large.svg",
+    "uploading": "../assets/uploading.svg",
+    "error_large": "../assets/error_large.svg",
+    "error": "../assets/error.svg",
+    "fullscreen_on": "../assets/fullscreen_on.svg",
+    "fullscreen_off": "../assets/fullscreen_off.svg"
+    ) !default;
+
+$pf-green: #36A693;
+$pf-dark: #413B3C;
+$pf-light: #DFD4C0;
+$pf-lightest: #F3F5EA;
+$pf-red: #ED5F5F;
+$pf-red-light: lighten($pf-red, 10%);
+$pf-green-light: lighten($pf-green, 10%);
+
+// Media breakpoints
+$breakpoint-tablet: 768px;
+$breakpoint-phone: 480px;
+
+:root {
+    --PF-font-family: #{$font-family};
+
+    --PF-progress-bg-color: var(--PF-light-color);
+    --PF-progress-completed-color: var(--PF-primary-color);
+}

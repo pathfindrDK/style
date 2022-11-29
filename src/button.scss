@@ -1,0 +1,51 @@
+:root {
+
+    --PF-button-primary-border-color: var(--PF-primary-color);
+    --PF-button-primary-bg-color: var(--PF-primary-color);
+    --PF-button-primary-color: #fff;
+
+    --PF-button-secondary-border-color: var(--PF-secondary-color);
+    --PF-button-secondary-bg-color: transparent;
+    --PF-button-secondary-color: var(--PF-dark-color);
+
+    --PF-button-font-family: var(--PF-font-family);
+    --PF-button-font-weight: var(--PF-font-thick);
+    --PF-button-font-size: var(--PF-font-medium);   
+}
+
+.#{$ns}-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 28px;
+    border-radius: 4px;
+    border: none;
+    font-family: var(--PF-button-font);
+    font-weight: var(---PF-button-font-weight);
+    font-size: 13px;
+    line-height: 16px;
+
+    background: var(--PF-button-primary-bg-color);
+    border: var(--PF-button-primary-border-color);
+    color: var(--PF-button-primary-color);
+    
+    cursor: pointer;
+
+    &.#{$ns}-button-disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.5;
+    }
+
+    &.#{$ns}-button-secondary {
+        background-color: var(--PF-button-secondary-bg-color);
+        border: var(--PF-button-secondary-border-color);
+        color: var(--PF-button-secondary-color);
+        
+    }
+
+    &:hover {
+        opacity: 0.9;
+    }
+}

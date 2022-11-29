@@ -1,0 +1,27 @@
+
+@mixin icon-sources($icons) {
+    
+    :root{
+        @each $name, $glyph in $icons {
+            --PF-icon-#{$name}: url(#{$glyph});
+        }
+    }
+  }
+
+.#{$ns}-icon {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+@mixin icon-classes($icons) {    
+    @each $name, $glyph in $icons {
+        .#{$ns}-icon.#{$ns}-icon-#{$name} {
+            background-image: var(--PF-A-icon-#{$name});
+        }
+    }
+}

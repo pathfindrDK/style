@@ -1,0 +1,110 @@
+body{
+    font-family: var(--PF-font-family);
+    padding: 10rem;
+}
+.colors {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    div {
+        width: 100px;
+        height: 100px;
+        color: var(--PF-color-light);
+        padding: 1rem;
+        text-shadow: 1px 1px 1px var(--PF-color-dark);
+        &.pf-color-green {
+            &:after{
+            
+                content: "--PF-color-green";
+            }
+            background-color: var(--PF-color-green);
+        }
+
+        &.pf-color-red {
+            &:after{
+                content: "--PF-color-red";
+            
+            }
+            background-color: var(--PF-color-red);
+        }
+
+        &.pf-color-dark {
+            &:after{
+                content: "--PF-color-dark";
+            
+            }
+            background-color: var(--PF-color-dark);
+        }
+
+        &.pf-color-light {
+            &:after{
+                content: "--PF-color-light";
+            
+            }
+            background-color: var(--PF-color-light);
+        }
+
+        &.pf-color-lightest {
+            &:after{
+                content: "--PF-color-lightest";
+            
+            }
+            background-color: var(--PF-color-lightest);
+        }
+
+        &.pf-color-red-light {
+            &:after{
+                content: "--PF-color-red-light";
+            
+            }
+            background-color: var(--PF-color-red-light);
+        }
+
+        &.pf-color-green-light {
+            &:after{
+                content: "--PF-color-green-light";
+            
+            }
+            background-color: var(--PF-color-green-light);
+        }
+        &.pf-dark-color {
+            &:after{
+                content: "--PF-dark-color";
+            
+            }
+            background-color: var(--PF-dark-color);
+        }
+        &.pf-light-color {
+            &:after{
+                content: "--PF-light-color";
+            
+            }
+            background-color: var(--PF-light-color);
+        }
+        &.pf-primary-color {
+            &:after{
+                content: "--PF-primary-color";
+            
+            }
+            background-color: var(--PF-primary-color);
+        }
+        &.pf-secondary-color {
+            &:after{
+                content: "--PF-secondary-color";
+            
+            }
+            background-color: var(--PF-secondary-color);
+        }
+    }
+}
+
+.buttons {
+    margin: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
