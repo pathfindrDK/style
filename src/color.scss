@@ -1,3 +1,11 @@
+$pf-green: #36A693;
+$pf-dark: #413B3C;
+$pf-light: #DFD4C0;
+$pf-lightest: #F3F5EA;
+$pf-red: #ED5F5F;
+$pf-red-light: lighten($pf-red, 10%);
+$pf-green-light: lighten($pf-green, 10%);
+
 :root {
     --PF-color-green: #{$pf-green};
     --PF-color-green-light: #{$pf-green-light};

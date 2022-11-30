@@ -1,9 +1,9 @@
 :root {
-    --PF-progress-bg-color: var(PF-color-light);
-    --PF-progress-completed-color: var(PF-primary-color);
+    --PF-progress-bg-color: var(--PF-color-light);
+    --PF-progress-completed-color: var(--PF-primary-color);
 }
 
-.#{$ns}-progress-bar {
+.PF-progress-bar {
     height: 16px;
     width: 100%;
     background-color: var(--PF-progress-bg-color);
@@ -13,7 +13,7 @@
     margin-top: 20px;
     display: inline-block;
 
-    .#{$ns}-progress {
+    .PF-progress {
         width: 0%;
         height: 100%;
         background-color: var(--PF-progress-completed-color);

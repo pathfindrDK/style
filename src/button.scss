@@ -13,7 +13,7 @@
     --PF-button-font-size: var(--PF-font-medium);   
 }
 
-.#{$ns}-button {
+.PF-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -32,13 +32,13 @@
     
     cursor: pointer;
 
-    &.#{$ns}-button-disabled {
+    &.PF-button-disabled {
         pointer-events: none;
         cursor: default;
         opacity: 0.5;
     }
 
-    &.#{$ns}-button-secondary {
+    &.PF-button-secondary {
         background-color: var(--PF-button-secondary-bg-color);
         border: var(--PF-button-secondary-border-color);
         color: var(--PF-button-secondary-color);

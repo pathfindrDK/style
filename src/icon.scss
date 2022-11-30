@@ -8,7 +8,7 @@
     }
   }
 
-.#{$ns}-icon {
+.PF-icon {
     height: 12px;
     width: 12px;
     display: inline-block;
@@ -20,8 +20,8 @@
 
 @mixin icon-classes($icons) {    
     @each $name, $glyph in $icons {
-        .#{$ns}-icon.#{$ns}-icon-#{$name} {
-            background-image: var(--PF-A-icon-#{$name});
+        .PF-icon.PF-icon-#{$name} {
+            background-image: var(--PF-icon-#{$name});
         }
     }
 }
