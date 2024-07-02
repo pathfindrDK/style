@@ -1,0 +1,33 @@
+:root {
+    --PF-font-family: 'Mulish', 'Helvetica', 'Arial', 'sans-serif';
+    --PF-font-thick: 700;
+
+    /* Text color, hover states */
+    --PF-primary-foreground-color: var(--PF-color-dark);
+    --PF-highlight-color: var(--PF-color-green);
+
+    /* Background color of controls and player in general */
+    --PF-primary-background-color: #fff;
+    --PF-primary-background-transparency: 0.7;
+
+    /* Background color used for progress bar */
+    --PF-secondary-background-color: #8897ae;
+    --PF-secondary-background-transparency: 0.5;
+
+    /* Border radius of the player */
+    --PF-border-radius: 25px;
+
+    /* Should the control bar span all the way? */
+    --PF-control-bar-width: 100%;
+    /* Padding around all the buttons */
+    --PF-control-bar-padding: 0 1em;
+    /* Size of a control button */
+    --PF-control-size: 36px;
+    /* Size of button icons */
+    --PF-control-icon-size: 20px;
+
+    /* Styling the display text */
+    --PF-control-font-family: var(--PF-font-family);
+    --PF-control-font-size: 8px;
+    --PF-control-font-weight: var(--PF-font-thick);
+}
