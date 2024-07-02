@@ -6,7 +6,7 @@
     --PF-primary-foreground-color: var(--PF-color-dark);
     --PF-highlight-color: var(--PF-color-green);
 
-    /* Background color of controls and player in general */
+    /* Background color of controls and components in general */
     --PF-primary-background-color: #fff;
     --PF-primary-background-transparency: 0.7;
 
@@ -14,8 +14,13 @@
     --PF-secondary-background-color: #8897ae;
     --PF-secondary-background-transparency: 0.5;
 
-    /* Border radius of the player */
+    /* Border radius of the components */
     --PF-border-radius: 25px;
+
+    /* Shadow for components */
+    --PF-shadow: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.12)) drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.08)) drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.04));
+
+
 
     /* Should the control bar span all the way? */
     --PF-control-bar-width: 100%;
